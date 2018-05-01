@@ -1,0 +1,14 @@
+{
+	"name": "diffusion",
+	"authors": [
+		"Alex"
+	],
+	"dependencies": {
+		"dsfml": "~>2.1.1"
+	},
+	"description": "Reaction Diffusion Algorithm",
+	"copyright": "Copyright © 2018, Alex",
+	"license": "proprietary",
+	"lflags": ["-LDSFMLC/lib"],
+	"targetPath": "bin"
+}
