@@ -92,7 +92,7 @@ class Game
 					ubyte au = to!ubyte(constrain(a * 255, 0, 255));
 					ubyte bu = to!ubyte(constrain(b * 255, 0, 255));
 					ubyte color = to!ubyte(constrain((a - b) * 255, 0, 255));
-					this.positions[i][j].color = Color(bu, color, au, 255);
+					this.positions[i][j].color = Color(bu, color, color, au);
 				}
 			}
 			foreach (i; 0 .. this.positions.length)
